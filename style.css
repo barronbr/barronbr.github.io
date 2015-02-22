@@ -1,23 +1,23 @@
 #wrapper {
   width: 960px;
-  margin: none;
+  min-width: 100%
 }
 
 #topbar {
 	background-color: #FF9900;
 	color: white;
 	text-align: right;
-	padding: 10px;
 	border-top: solid 2px black;
 	border-bottom: solid 2px black;
+	padding: 10px;
 }
 
 #middlebar {
 	background-color: #FF9900;
 	color: white;
 	text-align: right;
-	padding: 10px;
 	border-top: solid 2px black;
+	padding: 10px;
 }
 
 h1 {
@@ -76,9 +76,12 @@ img {
 }
 
 #motorcycle {
-	height: 500px;
+	height: 600px;
 	width: 100%;
+	float: center;
 }
+
 a {
 	color: white;
+	line-height: 20px;
 }
