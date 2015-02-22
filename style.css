@@ -1,6 +1,6 @@
 #wrapper {
-  width: 100%;
-  padding: 10px;
+  width: 960px;
+  margin: none;
 }
 
 #topbar {
@@ -41,11 +41,6 @@ h4 {
 	margin-left: 0px;
 }
 
-#summary {
-	margin: 5px;
-	margin-left: 0px;
-}
-
 body {
   color: black;
   font-family: sans-serif;
@@ -57,7 +52,7 @@ body {
 	height: 300px;
 	margin: 0px;
 	min-height: 300px;
-	min-width: 1060px
+	min-width: 960px
 }
 
 img {
@@ -80,6 +75,10 @@ img {
 	background-color: #CCCCCC;
 }
 
+#motorcycle {
+	height: 500px;
+	width: 100%;
+}
 a {
-	color: blue;
+	color: white;
 }
