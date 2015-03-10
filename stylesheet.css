@@ -1,0 +1,32 @@
+.navbar-inverse .navbar-brand {
+	font-color: white;}
+	/*Why isn't this working?!*/
+
+
+img {
+	height: 175px;
+	width: 100%;
+}
+
+.resume {
+	height: 100%;
+	width: 100%;
+}
+
+#brad {
+	padding: 15px;
+		}
+.underline {
+	border-bottom: 1px solid black
+	}
+
+.thumbnail {
+	padding-top: 10px;
+	margin-top: 10px;
+	background-color: white;
+		}
+footer {
+	font-size: 12px;
+	padding-top: 10px;
+}
+

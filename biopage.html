@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Brad Barron's Resume</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Brad Barron's Portfolio</title>
+	
+	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<!--Need to figure out how to control background color-->
-	<style> .navbar-collapse .navbar-brand {
-		background-color: white;
-		font-color: black;
-	}
-	</style>
+	
+	<!-- My own style sheet -->
+	<link rel="stylesheet" href="stylesheet.css">
+
+	    <!-- Font Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 <body>
-<div class="container-fluid">
+	<div class="container">
+		
 		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,11 +42,29 @@
 		      </ul>
 		      
 		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="contactpage.html">Contact</a></li>
+		        <li><a href="contactpage.html"><i class="fa fa-envelope"></i>Contact</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+		
+
+		<div class="underline">
+			<div id="bio" class="row">
+				<div class="container-fluid">
+					<div class="col-md-9">
+					<h1>Brad Barron</h1>
+					<h2>Product Developer and Strategist</h2>
+					<h3>S.C. Johnson & Son, Inc.</h3>
+					<h4>Chicago, IL</h4>
+					</div>
+					<div class="col-md-3">
+						<img class="img-responsive" id="brad" src=bradpic.jpg>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 
 		<section>
 	      <h4>Experience</h4>
@@ -70,4 +96,25 @@
 	      </ul>
     	</section>
 </body>
+
+<footer>
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<p><a href="index.html">Home</a></p>
+			<p><a href="resumepage.html">Resume</a></p>
+			<p><a href="portfoliopage.html">Portfolio</a></p>
+			<p><a href="biopage.html">Bio</a></p>
+		</div>
+		<div class="col-sm-4">
+			<p><a href="https://twitter.com/brad_barron" target="_blank">Twitter</a></p>
+			<p><a href="https://www.linkedin.com/in/barronbr/en" target="_blank">Linked In</a></p>
+			<p><a href="mailto:bjbarron14@gmail.com">Email</a></p>
+		</div>
+		<div class="col-sm-4">
+		<p><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Copyright Brad Barron 2015</p>
+		</div>
+	</div>
+	</div>
+</footer>
 </html>
