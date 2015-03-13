@@ -36,9 +36,9 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="resumepage.html">Resume <span class="sr-only">(current)</span></a></li>
+		        <li><a href="resumepage.html">Resume <span class="sr-only">(current)</span></a></li>
 		        <li><a href="portfoliopage.html">Portfolio</a></li>
-      	  	  	<li class="active"><a href="biopage.html">Bio <span class="sr-only">(current)</span></a></li>
+      	  	  	<li><a href="biopage.html">Bio <span class="sr-only">(current)</span></a></li>
 		      </ul>
 		      
 		      <ul class="nav navbar-nav navbar-right">
@@ -47,26 +47,38 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+
+		<div id="form">
+			<h1>Contact Me!</h1>
+
+			<form action="mailto:b-barron@kellogg.northwestern.edu">
+				<p><input name="subject" placeholder="Subject"></p>
+				<p><textarea rows="10" cols="100" name="body" placeholder="Enter text here"></textarea></p>
+				
+				<button>Submit</button>
+			</form>
+		</div>
+	</div>
 </body>
 
-<footer>
-	<div class="container">
-	<div class="row">
-		<div class="col-sm-4">
-			<p><a href="index.html">Home</a></p>
-			<p><a href="resumepage.html">Resume</a></p>
-			<p><a href="portfoliopage.html">Portfolio</a></p>
-			<p><a href="biopage.html">Bio</a></p>
+<div class="container">
+	<footer>
+		<div class="row">
+			<div class="col-sm-4">
+				<p><a href="index.html">Home</a></p>
+				<p><a href="resumepage.html">Resume</a></p>
+				<p><a href="portfoliopage.html">Portfolio</a></p>
+				<p><a href="biopage.html">Bio</a></p>
+			</div>
+			<div class="col-sm-4">
+				<p><a href="https://twitter.com/brad_barron" target="_blank">Twitter</a></p>
+				<p><a href="https://www.linkedin.com/in/barronbr/en" target="_blank">Linked In</a></p>
+				<p><a href="mailto:bjbarron14@gmail.com">Email</a></p>
+			</div>
+			<div class="col-sm-4">
+			<p><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Copyright Brad Barron 2015</p>
+			</div>
 		</div>
-		<div class="col-sm-4">
-			<p><a href="https://twitter.com/brad_barron" target="_blank">Twitter</a></p>
-			<p><a href="https://www.linkedin.com/in/barronbr/en" target="_blank">Linked In</a></p>
-			<p><a href="mailto:bjbarron14@gmail.com">Email</a></p>
-		</div>
-		<div class="col-sm-4">
-		<p><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Copyright Brad Barron 2015</p>
-		</div>
-	</div>
-	</div>
-</footer>
+	</footer>
+</div>
 </html>
