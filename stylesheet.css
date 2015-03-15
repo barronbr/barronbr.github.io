@@ -44,4 +44,11 @@ section {
 #form {
 	padding-bottom: 20px;
 }
+.skills img{
+	width: 320px;
+	height: 200px;
+}
 
+.skills h4 {
+	text-align: center
+}
