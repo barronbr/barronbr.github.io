@@ -4,7 +4,7 @@
 }
 
 img {
-	height: 175px;
+	height: 150px;
 	width: 160px;
 }
 
@@ -17,6 +17,8 @@ img {
 	padding: 15px;
 	height: 250px;
 	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
 		}
 .underline {
 	border-bottom: 1px solid black
@@ -31,6 +33,7 @@ footer {
 	font-size: 12px;
 	padding-top: 10px;
 	border-top: solid 1px black;
+	margin-top: 20px;
 }
 
 section {
@@ -51,4 +54,27 @@ section {
 
 .skills h4 {
 	text-align: center
+}
+
+.foliopics table {
+	height: 300px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.foliopic img {
+	height: 300px;
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
